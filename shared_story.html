@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>  </title>
+    <style>
+        body {
+            font-size: 14px;
+            font-family: 'Avenir Next','Helvetica Neue', Arial, Helvetica, sans-serif;
+            margin: 20px auto;
+            width: 1000px;
+        }
+
+        b {
+            font-weight: 600;
+        }
+
+        .ghost {
+            padding: 10px;
+            height: 150px;
+            width: 150px;
+            background-color: #FFFE00;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .leftpanel {
+            float: left;
+            width: 300px;
+            color: #6c6c6c;
+        }
+
+        .leftpanel a {
+            text-decoration: none;
+            color: #6c6c6c;
+        }
+
+        .leftpanel ul {
+            margin-left: 20px;
+            padding: 0;
+        }
+
+        .leftpanel li {
+            display: block;
+            padding: 11px 16px;
+        }
+
+        .leftpanel li:hover {
+            background-color: #f3f3f3;
+        }
+
+        .rightpanel th {
+            text-align : left
+        }
+
+        .rightpanel {
+            padding-left: 310px;
+            padding-top: 5px;
+        }
+
+        .rightpanel th, td {
+            padding: 15px;
+            font-weight: normal;
+        }
+
+        .bold-headers th {
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+<html>
+    <body>
+        <div class="leftpanel">
+            <img class="ghost" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA2IiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwNiAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNNTMuNzAzIDk4LjAxMmMtLjMgMC0uNTc2IDAtLjc4My0uMDQ2LS4xNjEuMDQ2LS4zNDYuMDQ2LS41My4wNDYtNi4xNTEgMC0xMC4yNTItMi44OTUtMTMuOTE1LTUuNDQ1LTIuNjA0LTEuODM4LTUuMDQ2LTMuNTg0LTcuOTI2LTQuMDY2LTEuNDA1LS4yNTMtMi44MzMtLjM0NS00LjE0Ny0uMzQ1LTIuNDQyIDAtNC4zNzcuMzY4LTUuNzYuNjQzLS44NzUuMTYxLTEuNjEyLjI5OS0yLjE4OC4yOTktLjU5OSAwLTEuMzYtLjE2LTEuNjU5LTEuMTcyLS4yNTMtLjgyNy0uNDE0LTEuNjA4LS41NzYtMi4zNjYtLjQxNC0xLjkwNy0uNzYtMy4wNzktMS40NzQtMy4xOTQtNy42OTUtMS4xNzItMTIuMzAzLTIuOTQtMTMuMjAxLTUuMDMxLS4wNy0uMjMtLjE2Mi0uNDYtLjE2Mi0uNjQ0LS4wNDYtLjY0My40MTUtMS4xNzEgMS4wNi0xLjI4NiA2LjEwNS0xLjAxMSAxMS41ODktNC4yNSAxNi4yMi05LjU4MSAzLjU5My00LjEzNiA1LjM0NC04LjEzMyA1LjUwNi04LjU3IDAtLjA0Ni4wNDYtLjA0Ni4wNDYtLjA0Ni44NzUtMS44MTUgMS4wNi0zLjM1NC41My00LjYxOC0uOTkxLTIuMzY2LTQuMjYzLTMuMzc3LTYuNDk3LTQuMDY2LS41NzYtLjE2MS0xLjA2LS4zNDUtMS40NzUtLjQ4My0xLjkxMi0uNzU4LTUuMDkxLTIuMzY2LTQuNjc3LTQuNTk1LjMtMS42MDggMi40NDItMi43NTcgNC4xOTMtMi43NTcuNDg0IDAgLjg5OS4wNjkgMS4yNDQuMjUzIDEuOTU5Ljg5NiAzLjczMyAxLjM1NSA1LjI1MyAxLjM1NSAxLjg5IDAgMi43ODgtLjcxMiAzLjAxOC0uOTQyLS4wNDYtMS4wMS0uMTE1LTIuMDY3LS4xODQtMy4wNTUtLjQ2LTcuMDMtLjk5LTE1Ljc2MSAxLjI0NC0yMC43N0MzMy41NjcgMi41NSA0Ny44MDUgMS4zNTYgNTIuMDIxIDEuMzU2Yy4xMTYgMCAxLjg0NC0uMDQ2IDEuODQ0LS4wNDZoLjI1M2M0LjIxNiAwIDE4LjQ1NCAxLjE3MSAyNS4xNTggMTYuMTc0IDIuMjU4IDUuMDA5IDEuNzA1IDEzLjc2MiAxLjI0NCAyMC43N2wtLjA0Ni4zNDRjLS4wNDYuOTQyLS4xMTUgMS44MzgtLjE2MSAyLjc1Ny4yMy4xODQgMS4wNi44NzMgMi43NjUuODk2IDEuNDc0LS4wNDYgMy4wODctLjUyOCA0LjkzLTEuMzU1YTQuMTY1IDQuMTY1IDAgMCAxIDEuNjEzLS4zNDVjLjY0NSAwIDEuMjkuMTYxIDEuODQzLjM0NWguMDQ2YzEuNTQzLjU3NCAyLjU1NyAxLjY1NCAyLjU1NyAyLjc4LjA0NiAxLjA1Ny0uNzgzIDIuNjY1LTQuNzIzIDQuMjUtLjQxNS4xNjEtLjg5OC4zNDUtMS40NzQuNDgzLTIuMTg5LjY2Ni01LjQ2IDEuNzIzLTYuNDk3IDQuMDY2LS41NzYgMS4yNDEtLjM0NiAyLjgyNi41MyA0LjYxOCAwIC4wNDYuMDQ2LjA0Ni4wNDYuMDQ2LjI1My42NDQgNi45MTEgMTUuNzE1IDIxLjcyNSAxOC4xNzQuNjQ1LjExNSAxLjA2LjY0MyAxLjA2IDEuMjg2IDAgLjIzLS4wNDYuNDYtLjE2MS42NjctLjg5OSAyLjExMy01LjQ2IDMuODM3LTEzLjIwMSA1LjAzMS0uNzE1LjExNS0xLjA2IDEuMjg3LTEuNDc1IDMuMTk0LS4xNjEuNzgxLS4zNDUgMS41NC0uNTc2IDIuMzY2LS4yMy43NTgtLjcxNCAxLjE3Mi0xLjU0MyAxLjE3MmgtLjExNmMtLjUzIDAtMS4yNDQtLjA2OS0yLjE4OC0uMjUzYTI3LjM4NSAyNy4zODUgMCAwIDAtNS43Ni0uNTk3Yy0xLjM2IDAtMi43NjUuMTE1LTQuMTQ3LjM0NS0yLjg1Ny40NTktNS4zMjIgMi4yMjgtNy45MjUgNC4wNjYtMy43MSAyLjUyNy03LjgzMyA1LjQyMi0xMy45MzkgNS40MjIiIGZpbGw9IiNGRkYiLz48cGF0aCBkPSJNNTQuMDQ5IDIuNTI3YzMuOTYzIDAgMTcuNjI0IDEuMDU3IDI0LjA3NSAxNS40NjMgMi4xMiA0LjczMiAxLjU0NCAxMy4zMjUgMS4xNzUgMjAuMTk1LS4wNDYgMS4wOC0uMTYxIDIuMTM3LS4xODQgMy4xN2wtLjA0Ni40Ni4zLjM0NWMuMTE1LjE2IDEuMTk3IDEuMjg2IDMuNjYzIDEuMzU1aC4wOTJjMS42MTItLjA0NiAzLjQ3OS0uNTc0IDUuNDM3LTEuNDcuMy0uMTYxLjY2OC0uMTg0IDEuMDgzLS4xODQuNDYgMCAuOTQ0LjA2OSAxLjM1OS4yNTNsLjA0Ni4wNDZjMS4wNi4zNDQgMS43NzQgMS4wNTYgMS43NzQgMS42NTQgMCAuMzQ0LS4yNTMgMS42MDgtMy45NjMgMy4wNTUtLjM0NS4xNjEtLjgyOS4zLTEuMzU5LjQ2LTIuMzczLjc1OC01Ljk5IDEuOTA3LTcuMjM0IDQuNzMzLS42NjggMS42MDgtLjQ4NCAzLjUzOC41NzYgNS42NTIuNDYgMS4wMSA3LjI4IDE2LjM1OCAyMi42MjQgMTguODg1IDAgLjA3LS4wNDYuMTYxLS4wNDYuMjUzLS4yNTQuNTk3LTEuOTEyIDIuNzU3LTEyLjIxIDQuMzItMS42MTMuMjUyLTIuMDA1IDIuMDY3LTIuNDQzIDQuMTM1YTMzLjQ3MiAzMy40NzIgMCAwIDEtLjU3NiAyLjI5OGMtLjA2OS4yNTItLjA2OS4yNTItLjM0NS4yNTJoLS4xMTZjLS40NiAwLTEuMTc1LS4wNjktMS45NTgtLjI1Mi0xLjQ3NC0uMjUzLTMuNDc5LS42NDQtNi4wMzYtLjY0NC0xLjQyOCAwLTIuOTAzLjE2MS00LjM3Ny4zNjgtMy4xOC41MjgtNS43MzcgMi4zNDMtOC40NTYgNC4yNS0zLjY2MyAyLjQ4Mi03LjQ0MSA1LjE0Ny0xMy4yIDUuMTQ3LS4yNTQgMC0uNDg1IDAtLjc2MS0uMDQ2aC0uMDkyYy0uMTYxIDAtLjI1NC4wNDYtLjQ2LjA0Ni01Ljc2IDAtOS41MzktMi42NjUtMTMuMjAyLTUuMjM5LTIuNzE5LTEuOTA3LTUuMjc2LTMuNzIyLTguNDU1LTQuMjVhMjYuMTggMjYuMTggMCAwIDAtNC4zNzgtLjM2OGMtMi41NTcgMC00LjU2MS4zNjgtNi4wMzYuNjY3LS43ODMuMTYtMS40OTcuMjk4LTEuOTU4LjI5OC0uMzY5IDAtLjM2OS0uMDQ2LS40Ni0uMjk4LS4yMzEtLjc4Mi0uNDE2LTEuNTQtLjU3Ny0yLjI5OC0uNDYtMi4xMTQtLjg3NS0zLjkwNi0yLjQ0Mi00LjEzNS0xMC4yOTgtMS41ODYtMTIuMDAzLTMuNzIyLTEyLjIxLTQuMzItLjA0Ny0uMTE1LS4wNDctLjE4NC0uMDQ3LS4yNTMgMTUuMzktMi41MjcgMjIuMjEtMTcuODc0IDIyLjYyNC0xOC44ODUgMS4wNi0yLjEzNyAxLjI0NS00LjA2Ny41NzYtNS42NTItMS4xOTgtMi44NDktNC44MzgtNC4wMi03LjIzNC00LjczMy0uNTc2LS4xNi0xLjAxMy0uMzQ1LTEuMzU5LS40Ni0zLjA4Ny0xLjI0LTQuMDc4LTIuNDM1LTMuOTE3LTMuMTkzLjE2Mi0uODczIDEuNjYtMS43NyAyLjk3Mi0xLjc3LjMgMCAuNTc2LjA0Ny43Ni4xNjIgMi4xMi45ODggNC4wNzkgMS40OTMgNS43NiAxLjQ5MyAyLjY3MyAwIDMuODQ4LTEuMjQgNC4wMS0xLjQwMWwuMjk5LS4zNDUtLjA0Ny0uNDZjLS4wNDYtMS4wMS0uMTE1LTIuMDY3LS4xODQtMy4xNy0uNDYtNi44OTMtLjk5LTE1LjQ2MiAxLjE3NS0yMC4xOTVDMzQuNDY2IDMuNTg0IDQ4LjA2IDIuNTA0IDUyLjA0NCAyLjUwNGMuMTE2IDAgMS44NDQtLjA0NiAxLjg0NC0uMDQ2IDAgLjA3LjA2OS4wNy4xNi4wN20wLTIuNDZoLS4yNTNjLS42NDUgMC0xLjcyNy4wNDctMS44Mi4wNDctMi4zNzMgMC03LjA1LjM0NS0xMi4xMTggMi41NWEyNS44OCAyNS44OCAwIDAgMC03LjY5NSA1LjEyNGMtMi42NzIgMi41MjctNC44MzggNS42NTItNi40NSA5LjI1OS0yLjM3NCA1LjI2LTEuODIgMTQuMTc1LTEuMzYgMjEuMzY3LjA0Ni43NTguMTE1IDEuNTM5LjE2MSAyLjM2Ni0uMzQ1LjE2LS44OTguMzQ1LTEuNzI4LjM0NS0xLjM1OSAwLTIuOTAzLS40Ni00LjcyMy0xLjI0MS0uNTMtLjI1My0xLjEyOS0uMzQ1LTEuNzc0LS4zNDUtMS4wNiAwLTIuMTg4LjI5OS0zLjE3OS44NzMtMS4yNDQuNzEzLTIuMDI3IDEuNzI0LTIuMjU4IDIuODUtLjE2MS43NTgtLjE2MSAyLjIyOCAxLjQ5OCAzLjcyMS44OTguODI3IDIuMjM1IDEuNTg2IDMuOTYyIDIuMjUyLjQ2MS4xNi45OTEuMzQ1IDEuNTQ0LjUyOCAxLjk1OC42NDQgNC45MyAxLjU0IDUuNjkgMy4zNTUuMzcuOTQyLjIzMSAyLjEzNi0uNDgzIDMuNTg0LS4wNDYuMDQ2LS4wNDYuMDY5LS4wNDYuMTE1LS4xODUuNDEzLTEuODQzIDQuMjUtNS4zMjIgOC4yNy0xLjk1OSAyLjI1Mi00LjE0NyA0LjE4Mi02LjQwNSA1LjY3Ni0yLjc4OCAxLjgxNS01Ljg1MiAyLjk2My05LjAwOCAzLjUzOGEyLjQ1MiAyLjQ1MiAwIDAgMC0yLjA3NCAyLjU1Yy4wNDYuMzQ1LjExNi43NTguMjU0IDEuMDU3LjQ4NCAxLjE3MiAxLjY1OSAyLjE4MyAzLjU5NCAzLjA1NiAyLjM1IDEuMDU3IDUuODA2IDEuOTk5IDEwLjM0NCAyLjcxLjIzLjQ2LjQ2MSAxLjU0LjY0NSAyLjI1Mi4xNjIuNzgyLjM0NiAxLjYwOS42IDIuNDgyLjI1My45NDIuOTkgMi4wNjcgMi44MzMgMi4wNjcuNjY4IDAgMS40OTgtLjE2IDIuNDQyLS4zNDQgMS4zNi0uMjUzIDMuMjQ5LS42NDMgNS41NTItLjY0MyAxLjI5IDAgMi42NS4xMTQgMy45NjMuMzQ0IDIuNjA0LjQ2IDQuODM4IDEuOTk5IDcuMzk2IDMuODM3IDMuNzc4IDIuNjY1IDguMDYzIDUuNjc1IDE0LjYwNiA1LjY3NS4xODQgMCAuMzQ2IDAgLjUzLS4wNDYuMjMgMCAuNDg0LjA0Ni43Ni4wNDYgNi41NjYgMCAxMC44MjgtMy4wMSAxNC42MDctNS42NzUgMi41NTctMS44MzggNC44MzgtMy4zNzcgNy4zOTUtMy44MzcgMS4zNi0uMjMgMi42NzMtLjM0NCAzLjk2My0uMzQ0IDIuMjM1IDAgMy45NjMuMjUyIDUuNTUyLjU5NyAxLjAxNC4xODQgMS44Mi4yOTkgMi40NDIuMjk5aC4wOTNjMS4zNTkgMCAyLjM1LS43NTkgMi43MTgtMi4wMjIuMjU0LS44NzMuNDYtMS42NTQuNi0yLjQzNi4xNi0uNzEyLjQxNC0xLjgzOC42NDQtMi4yNTEgNC41NjItLjcxMiA3Ljk5NS0xLjYwOCAxMC4zNDUtMi42NjUgMS44ODktLjg3MyAzLjA2NC0xLjg4NCAzLjU5NC0zLjA1Ni4xNi0uMzQ1LjI1My0uNzEyLjI1My0xLjA4YTIuNDUyIDIuNDUyIDAgMCAwLTIuMDczLTIuNTVDODkuNzEzIDcxLjk4IDgzLjMzIDU3LjUwNyA4My4wNzggNTYuODY0Yy0uMDQ2LS4wNDYtLjA0Ni0uMDctLjA0Ni0uMTE1LS43MTUtMS40Ny0uODc2LTIuNjY1LS40ODQtMy41ODQuNzYtMS44MTUgMy43MzItMi43NTcgNS42OS0zLjM1NS41NzYtLjE4NCAxLjA4My0uMzQ0IDEuNTQ0LS41MjggMS45MTItLjc1OCAzLjMxNy0xLjU4NSA0LjIxNi0yLjUyNyAxLjA4My0xLjEyNiAxLjI5LTIuMTgzIDEuMjktMi44OTUtLjA0Ni0xLjctMS4zNi0zLjE5NC0zLjM4Ny0zLjk1Mi0uNjY4LS4yOTktMS40NzQtLjQ2LTIuMzAzLS40Ni0uNTc2IDAtMS4zNi4wNy0yLjE0My40Ni0xLjY1OS43NTgtMy4xMzMgMS4xOTUtNC40MjMgMS4yNC0uNjY5LS4wNDUtMS4xNzUtLjE4My0xLjQ3NS0uMzQ0LjA0Ni0uNjQzLjA3LTEuMzU2LjE2MS0yLjA2OGwuMDQ2LS4yOThjLjQ2MS03LjE0NiAxLjAxNC0xNi4wNi0xLjM1OS0yMS4zNjctMS42MTMtMy42NTMtMy44MDEtNi43NzgtNi40OTctOS4yNmEyNy45OTkgMjcuOTk5IDAgMCAwLTcuNzQtNS4xMjNDNjEuMTIxLjM2OCA1Ni40MjEuMDY4IDU0LjA0Ny4wNjgiIGZpbGw9IiMwMjAyMDIiLz48L2c+PC9zdmc+">
+            <ul>
+                
+                <li>
+                <a href= account.html> Account History and Information </a>
+                </li>
+                
+                <li>
+                <a href= snap_history.html> Snap History </a>
+                </li>
+                
+                <li>
+                <a href= shared_story.html> Live, Local, &amp; Crowd-Sourced Content History and Information </a>
+                </li>
+                
+                <li>
+                <a href= purchase_history.html> Purchase History </a>
+                </li>
+                
+                <li>
+                <a href= supportnote.html> Snapchat Support History </a>
+                </li>
+                
+                <li>
+                <a href= user_profile.html> User Profile </a>
+                </li>
+                
+                <li>
+                <a href= https://support.snapchat.com/a/download-my-data> FAQ </a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="rightpanel">
+            
+
+<h1>Live, Local, and Crowd-Sourced Content History and Information</h1>
+<p>This includes information about the Snaps you have submitted to one of our Live, Local, or crowd-sourced stories. If the status section says SELECTED, it means that your Snap was selected by our curation team to be part of the Story. If you applied a geofilter or text to your content, your submission may contain multiple media files.</p>
+<p class="important">
+
+<b> No Data Available </b>
+
+</p>
+
+        </div>
+    </body>
+</html>
